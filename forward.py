@@ -104,7 +104,7 @@ class ForwardMessage:
         if path.startswith(('http://', 'https://')):
             return path
         if os.path.isfile(path):
-            return f"file:/{os.path.abspath(path)}"
+            return f"file:///{os.path.abspath(path)}"
         return ""
     
     def convert_to_forward(self, raw_message: str) -> list[dict]:
