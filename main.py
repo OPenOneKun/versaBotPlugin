@@ -29,7 +29,7 @@ class MyPlugin(BasePlugin):
                 'prompt': '流量卡查询结果',
                 'summary': '最新套餐信息',
                 'source': '流量卡小助手',
-                'user_id': '1048643088',    # 自定义QQ号
+                'user_id': '3325172363',    # 自定义QQ号
                 'nickname': '流量卡小助手',  # 自定义昵称
                 'mode': 'multi'  # single/multi 对应单条发出还是分条发出
             },
@@ -39,7 +39,7 @@ class MyPlugin(BasePlugin):
                 'prompt': '看妹妹',
                 'summary': '看妹妹',
                 'source': '沙耶香不看',
-                'user_id': '1048643088',    
+                'user_id': '3325172363',    
                 'nickname': 'bot妹妹',
                 'mode': 'multi'   
             },
@@ -49,7 +49,7 @@ class MyPlugin(BasePlugin):
                 'prompt': '看妹妹',
                 'summary': '看妹妹',
                 'source': '沙耶香不看',
-                'user_id': '1048643088',    
+                'user_id': '3325172363',    
                 'nickname': 'bot妹妹',
                 'mode': 'multi'   
             },
@@ -69,7 +69,7 @@ class MyPlugin(BasePlugin):
                 'prompt': '微博热搜榜',
                 'summary': '微博热搜榜',
                 'source': '微博热搜榜',
-                'user_id': '1048643088',    
+                'user_id': '3325172363',    
                 'nickname': '追热点的沙耶香',
                 'mode': ''   
             },
@@ -79,8 +79,18 @@ class MyPlugin(BasePlugin):
                 'prompt': '猫眼票房排行榜',
                 'summary': '猫眼票房排行榜',
                 'source': '猫眼票房排行榜',
-                'user_id': '1048643088',    
+                'user_id': '3325172363',    
                 'nickname': '猫眼沙耶香',
+                'mode': ''   
+            },
+            'steam热销': {  
+                'enable': True,  
+                'dftcmd': 'off',
+                'prompt': 'steam热销榜',
+                'summary': 'steam热销榜',
+                'source': 'steam热销榜',
+                'user_id': '3325172363',    
+                'nickname': 'steam情报官',
                 'mode': ''   
             }
         }
