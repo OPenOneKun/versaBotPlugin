@@ -50,7 +50,7 @@ class MyPlugin(BasePlugin):
                 'summary': '看妹妹',
                 'source': '沙耶香不看',
                 'user_id': '3325172363',    
-                'nickname': 'bot妹妹',
+                'nickname': '波特',
                 'mode': 'multi'   
             },
             '贤者模式': {  
@@ -70,7 +70,7 @@ class MyPlugin(BasePlugin):
                 'summary': '微博热搜榜',
                 'source': '微博热搜榜',
                 'user_id': '3325172363',    
-                'nickname': '追热点的沙耶香',
+                'nickname': '追热点的波特',
                 'mode': ''   
             },
             '猫眼': {  
@@ -80,7 +80,7 @@ class MyPlugin(BasePlugin):
                 'summary': '猫眼票房排行榜',
                 'source': '猫眼票房排行榜',
                 'user_id': '3325172363',    
-                'nickname': '猫眼沙耶香',
+                'nickname': '猫眼波特',
                 'mode': ''   
             },
             'steam热销': {  
@@ -90,7 +90,7 @@ class MyPlugin(BasePlugin):
                 'summary': 'steam热销榜',
                 'source': 'steam热销榜',
                 'user_id': '3325172363',    
-                'nickname': 'steam情报官',
+                'nickname': 'steam波特',
                 'mode': ''   
             }
         }
