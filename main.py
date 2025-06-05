@@ -20,7 +20,7 @@ class MyPlugin(BasePlugin):
 
     def __init__(self, host: APIHost):
         # pass
-        self.forwarder = ForwardMessage("127.0.0.1", 3000)
+        self.forwarder = ForwardMessage("langbot", 3000)
         self.sagesys = SageSystem()
         self.forward_config = {
             '流量卡': {  # 命令名称
